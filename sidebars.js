@@ -211,6 +211,15 @@ const sidebars = {
               id: 'nada-lang-tutorial-lists-and-iteration',
             },
             {
+              type: 'category',
+              label: 'Nada Notebooks',
+              link: {
+                type: 'doc',
+                id: 'nada-notebooks',
+              },
+              items: ['nada-notebook-1', 'nada-notebook-2'],
+            },
+            {
               type: 'link',
               label: 'More Example Programs',
               href: 'https://github.com/NillionNetwork/nillion-python-starter/tree/main/programs',
